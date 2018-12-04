@@ -30,7 +30,7 @@ Create the following folders:
 
 (OSX): `/Users/yourname/ds/metis/metisgh/prework`
 
-Example: /Users/laumontemayor/ds/metis/metisgh  
+Example: /Users/laumontemayor/ds/metis/metisgh/prework  
 
 (Windows): `C:/ds/metis/metisgh/prework`
 

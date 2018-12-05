@@ -20,22 +20,40 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > pwd
+> > mkdir foldername
+> > rm -r foldername
+> > touch filename
+> > rm filename
+> > mv filename1 filename2
+> > ls -a
+> > cp folder1/filename1 folder/
+> >
+> >
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
+
+
 `ls`  
 `ls -a`  
 `ls -l`  
 `ls -lh`  
 `ls -lah`  
 `ls -t`  
-`ls -Glp`  
+`ls -Glp`   
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls` = displays files and folders  
+> > `ls -a` = displays all files    
+> > `ls -l` = displays the long format of the listing   
+> > `ls -lh` = displays the long format and human readable format (print file sizes)    
+> > `ls -lah` = displays the long format of all files (including hidden ones) and human readable form     
+> > `ls -t` = displays the files, sorted by last modified     
+> > `ls -Glp` = displays the files with colorized output, in the long format and foldernames are indicated by slash (/)    
+
 
 ---
 
@@ -43,7 +61,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls -G  
+> > ls -lt  
+> > ls -Gp  
+> > ls -t  
+> > ls -Glht  
 
 ---
 
@@ -51,7 +73,5 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
-
+> > `xargs` reads a stream of standard input and converts it into arguments to a command   
+> > ls *md | xargs wc  

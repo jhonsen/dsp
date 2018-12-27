@@ -16,7 +16,7 @@ thinkplot.Pmf(pmf, linewidth=0.1)
 thinkplot.Config(xlabel='random variate', ylabel='PMF')
 
 ```
-![pmf](https://github.com/jhonsen/dsp/tree/master/statistics/randompmf.png)
+![pmf](../randompmf.png "random_pmf")
 
 Plotting the CDF
 ```python
@@ -24,5 +24,5 @@ cdf = thinkstats2.Cdf(sample, label='random variate')
 thinkplot.Cdf(cdf, linewidth=0.5)
 thinkplot.Config(xlabel='random variate',ylabel='CDF')
 ```
-![cdf](https://github.com/jhonsen/dsp/tree/master/statistics/randomcdf.png)
+![cdf](../randomcdf.png)
 > The distribution is uniform

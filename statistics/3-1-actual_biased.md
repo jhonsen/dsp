@@ -15,15 +15,15 @@ Now compute the biased distribution we would see if we surveyed the children and
 # i.e., value multiplied by number of children
 def BiasPmf(pmf, label):
     new_pmf = pmf.Copy(label=label)
-    
+
     # multiply the value for key:(x)  by x
     for x, p in pmf.Items():
         new_pmf.Mult(x, x)
-        
+
     new_pmf.Normalize()
     return new_pmf
 
-# Use function to compute biased distribution 
+# Use function to compute biased distribution
 biased_pmf = BiasPmf(pmf,label='Observed')
 ```
 
@@ -33,8 +33,4 @@ thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased_pmf])
 thinkplot.Show(xlabel='number of children',ylabel='PMF')
 ```
-
-
-
-
-
+![plot](https://github.com/jhonsen/dsp/tree/master/statistics/biasvsunbiased.png)

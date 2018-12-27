@@ -33,4 +33,4 @@ thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased_pmf])
 thinkplot.Show(xlabel='number of children',ylabel='PMF')
 ```
-![plot](../biasvsunbiased.png)
+![plot](./biasvsunbiased.png)

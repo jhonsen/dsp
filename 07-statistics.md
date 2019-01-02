@@ -85,16 +85,16 @@ This is a classic example of hypothesis testing using the normal distribution.  
 Bayes' Theorem is an important tool in understanding what we really know, given evidence of other information we have, in a quantitative way.  It helps incorporate conditional probabilities into our conclusions.
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
-__answer:__
+__answer:__  
 
-Using Tree method:
-|    Twin Type    |    Gender      |
-|    :--:         |    :----:      |
-|Identical (1/300)| boy-boy (1/2)  |
-|                 | girl-girl (1/2)|
-|Fraternal (1/125)| girl-girl (1/4)|
-|                 |  boy-boy (1/4) |
-|                 | boy-girl (2/4) |
+Using Tree method:  
+|    Twin Type    |    Gender      |  
+|    :--:         |    :----:      |  
+|Identical (1/300)| boy-boy (1/2)  |  
+|                 | girl-girl (1/2)|  
+|Fraternal (1/125)| girl-girl (1/4)|  
+|                 |  boy-boy (1/4) |  
+|                 | boy-girl (2/4) |  
 
 > Prob (ident|boy-boy) = Prob(ident and boy-boy)/Prob(boy-boy)
 > Prob = (1/300)(1/2)  /  (  (1/300)(1/2) + (1/125)(1/4) ) 
